@@ -5,6 +5,10 @@ public class MethodExample {
         return a + b;
     }
 
+    public static double getDiv(int a, int b) {
+        return a / b;
+    }
+
 
     public static void main(String[] args) {
         MethodExample.getSum(1, 2);
