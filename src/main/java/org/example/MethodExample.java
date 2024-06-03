@@ -1,8 +1,16 @@
 package org.example;
 
 public class MethodExample {
+
     public static double calc(int a, int b) {
         return a + b;
+
+    public static double getDiv(int a, int b) {
+        return a / b;
+    }
+
+    public static double getMinus(int a, int b) {
+        return a - b;
     }
 
 
