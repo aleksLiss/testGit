@@ -2,7 +2,8 @@ package org.example;
 
 public class MethodExample {
     public static double getSum(int a, int b) {
-        return a + b;
+        int c = 4;
+        return a + b + c;
     }
 
     public static double getDiv(int a, int b) {
