@@ -1,10 +1,9 @@
 package org.example;
 
 public class MethodExample {
-    public static double getSum(int a, int b) {
-        int c = 4;
-        return a + b + c;
-    }
+
+    public static double calc(int a, int b) {
+        return a + b;
 
     public static double getDiv(int a, int b) {
         return a / b;
@@ -16,9 +15,9 @@ public class MethodExample {
 
 
     public static void main(String[] args) {
-        MethodExample.getSum(1, 2);
-        MethodExample.getSum(3, 4);
-        MethodExample.getSum(2, 2);
-        MethodExample.getSum(-1, -2);
+        MethodExample.calc(1, 2);
+        MethodExample.calc(3, 4);
+        MethodExample.calc(2, 2);
+        MethodExample.calc(-1, -2);
     }
 }
